@@ -9,6 +9,8 @@ services:
         value: "ระบบจัดการการขายและใบสั่งซื้อ"
       - key: APP_ENV
         value: production
+      - key: APP_URL
+        value: "https://sales-order-system-gur1.onrender.com"
       - key: APP_DEBUG
         value: "true"
       - key: APP_KEY
