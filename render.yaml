@@ -12,7 +12,7 @@ services:
       - key: APP_DEBUG
         value: "true"
       - key: APP_KEY
-        generateValue: true
+        value: "base64:m9SLxkRXjd2UzAUT7TiQqNBY/Ij7OSA6mHqk4vKAk/w="
       - key: DB_CONNECTION
         value: sqlite
       - key: SESSION_DRIVER
